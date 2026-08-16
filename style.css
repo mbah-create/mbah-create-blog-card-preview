@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --yellow: hsl(47, 88%, 63%);
+    --gray-500: hsl(0, 0%, 42%);
+   --gray-950: hsl(0, 0%, 7%);
+   --white: hsl(0, 0%, 100%);
+   --space-200: 16px;
+   --space-300: 24px;
+   --space-600: 40px;
+   --coners-xl: 20px;
+   --corners-l: 16px;
+  
+}
+
+body{
+    font-family: system-ui;
+    background-color:var(--yellow) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: figtree, sans-serif;
+}
+
+main{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    margin-top: auto;
+}
+
+.blog-preview-card{
+    background-color:var(--white);
+    width: 375px;
+    padding: var(--space-200);
+    padding-bottom: var(--space-200);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    border-radius: var(--coners-xl);
+    box-shadow: 10px 10px 10px rgb(0, 0,0, 0.90);
+    gap: var(--space-200);
+
+}
+
+img{
+   width: 100%;
+    border-radius:var(--corners-l);
+  max-width: 100%;
+  height: auto;
+
+}
+
+/* text semantics */
+
+.category{    
+   background-color: var(--yellow);
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 100%;
+    letter: spacing 0.1px;
+   text-align: left;
+   padding: 8px;
+   
+  
+ }
+  
+ .date{
+    font-size 8px; 
+    color:var(--gray-950) ;
+   font-weight: lighter;
+   
+    
+ }
+
+ 
+  a{
+    font-size: var(--space-200);
+    color: var(--gray-950);
+    font-weight: bold;
+    text-decoration: none;
+    }
+
+    a:hover{
+        color: var(--yellow);
+        text-decoration: underline;
+    }
+
+
+a:focus{
+    border:10px solid var(--gray-500);
+    outline:none;
+
+}
+
+.description{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gray-500);
+    line-height: 1.5em;
+
+}
+
+
+.image-avatar{
+    display: flex;
+    flex-direction: row;
+    gap: var(--space-200);
+    width: 32px;
+    height: 32px;
+    align-items: center;
+
+
+}
+.author-name{
+    color: var(--gray-950);
+    font-size: var(--space-200);
+    font-weight: 600;
+    line-height: 1em;
+    white-space: nowrap;
+}
+
+@media (max-width: 375px){
+    .blog-preview-card{
+     width: 100%;
+
+    }
+}
+
+
