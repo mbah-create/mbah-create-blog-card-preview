@@ -12,7 +12,6 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
   - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -22,13 +21,12 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 ### The challenge
 
 This is my solution to the Blog preview card challenge from frontend mentor.
-I built the project using HTML and CSS and used the provided assets like stlye, active-states.jpg guide as reference.
+I built the project using HTML and CSS and used the provided assets like stlye, active-states guide as reference.
 
 ### Screenshot
 
-### Screenshot
-
-![my screenshot](./screenshot.png)
+![mobile design](./screenshots/Screenshot.png)
+![desktop design](./screenshots/Screenshot-desktop%20.png)
 
 ### Links
 
@@ -63,13 +61,6 @@ This is my second challenge with frontend mentor and my second project as i navi
 - @media query.
 - to read and understand designs without back and forth checking.
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
 ### AI Collaboration
 
 I used chatgpt as a collaborator and as a learning assitant throughout this project.
@@ -77,11 +68,9 @@ Rather than asking it to genertae the solutions and give me blogs of code,i used
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [mbah fab..](https://www.your-site.com)
+- Frontend Mentor - [@mbah-create](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@alreadywon100](https://www.twitter.com/yourusername)
 
 ## Acknowledgments
 
